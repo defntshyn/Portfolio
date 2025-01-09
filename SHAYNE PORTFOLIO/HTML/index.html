@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shayne</title>
+    <script src="https://kit.fontawesome.com/d8f0503c9b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container">
+            <div class="container-content">
+                <div class="bordered-content">
+                    <div class="picture">
+                        <div class="picture-container">
+                            <span></span>
+                            <img src="../IMAGES/icon3.png">
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p class="name">Shayne Michael U. Daños</p>
+                        <span id="line"></span>
+                        <p class="personal">
+                            UI / UX Designer
+                            <i class="fa-solid fa-star"></i>
+                            Front-end Web Developer
+                        </p>
+                        <div class="description-2">
+                            <p class="details">
+                                Ako to si natoy na mahal na mahal ka. Ako to si natoy na mahal na mahal ka. Ako to si natoy na mahal na mahal ka. Ako to si natoy na mahal na mahal ka. Ako to si natoy na mahal na mahal ka. Ako to si natoy na mahal na mahal ka. Ako to si natoy na mahal na mahal ka. Ako to si natoy na mahal na mahal ka. Ako to si natoy na mahal na mahal ka. Ako to si natoy na mahal na mahal ka. Ako to si natoy na mahal na mahal ka.
+                                <br>
+                                <br>
+                                Ako to si natoy na mahal na mahal ka.
+                                Ako to si natoy na mahal na mahal ka.
+                                Ako to si natoy na mahal na mahal ka.Ako to si natoy na mahal na mahal ka.
+                            </p>
+                            <div class="navigation">
+                                <a href="about.html">
+                                    <i class="fa-solid fa-user"></i> <span>About</span>
+                                </a>
+                                <a href="about.html">
+                                    <i class="fa-solid fa-folder-open"></i>
+                                    <span>Works</span>
+                                </a>
+                                <a href="about.html">
+                                    <i class="fa-solid fa-address-card"></i>
+                                    <span>Resume</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="circle c-1"></span>
+                    <span class="circle c-2"></span>
+                    <span class="circle c-3"></span>
+                    <span class="circle c-4"></span>
+                    <span class="circle c-5"></span>
+                </div>
+            </div>
+            <div class="social">
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-google"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="">
+                    <i class="fa-solid fa-phone"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="circle-container">
+        <div class="circle">
+            <div class="text">
+                <p>
+                    Shayne Michael U. Daños
+                    ★
+                    UI / UX Designer
+                    ★
+                    Front-end Web Developer
+                    ★
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="circle-container-2">
+        <div class="circle">
+            <div class="text">
+                <p>
+                    Shayne Michael U. Daños
+                    ★
+                    UI / UX Designer
+                    ★
+                    Front-end Web Developer
+                    ★
+                </p>
+            </div>
+        </div>
+    </div>
+    <script>
+        const texts = document.querySelectorAll('.text p');
+        texts.forEach((text) => {
+            text.innerHTML = text.innerText.split('').map(
+                (char, i) =>
+                    `<span style="transform:rotate(${i * 5}deg)">${char}</span>`
+            ).join('');
+        });
+    </script>
+</body>
+
+</html>
