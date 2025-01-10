@@ -7,6 +7,7 @@
     <title>Shayne</title>
     <script src="https://kit.fontawesome.com/d8f0503c9b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../CSS/styles.css">
+    <script src="../JS/index.js"></script>
 </head>
 
 <body>
@@ -21,7 +22,7 @@
                         </div>
                     </div>
                     <div class="description">
-                        <p class="name">Shayne Michael U. Daños</p>
+                        <p class="name">Shayne <span class="secondName">Michael</span> U. Daños</p>
                         <span id="line"></span>
                         <p class="personal">
                             UI / UX Designer
@@ -103,15 +104,6 @@
             </div>
         </div>
     </div>
-    <script>
-        const texts = document.querySelectorAll('.text p');
-        texts.forEach((text) => {
-            text.innerHTML = text.innerText.split('').map(
-                (char, i) =>
-                    `<span style="transform:rotate(${i * 5}deg)">${char}</span>`
-            ).join('');
-        });
-    </script>
 </body>
 
 </html>
